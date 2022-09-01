@@ -1,0 +1,35 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+div {
+  background-color: rgb(0,255,255);
+}
+h1 {
+  text-align: center;
+  font-size: 32;
+  text-decoration:underline;
+}
+img {
+  border-style: groove;
+  border-width: thick;
+  border-radius: 100px;
+  width: 500px;
+  height: 280px;
+  margin: 20px;
+  float: left;
+}
+.nav{
+  border:1px solid #ccc;
+  border-width:1px 0;
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+.nav li{
+  display:inline;
+}
+.nav a{
+  display:inline-block;
+  padding:5px;
+}

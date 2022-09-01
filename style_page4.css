@@ -1,0 +1,60 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+p {
+  text-align: center;
+}
+div {
+  background-color: rgb(44,114,69);
+}
+a {
+  color: rgb(255,255,0)
+}
+h1 {
+  text-align: center;
+  font-size: 32;
+  text-decoration:underline;
+}
+h3 {
+  text-align: center;
+  font-size: 32;
+  text-decoration:underline;
+}
+img {
+  border-style: inset;
+  border-width: thick;
+  border-radius: 100px;
+  width: 500px;
+  height: 330px;
+  margin: 20px;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.center {
+  float: inherit;
+}
+u {
+  background-color: rgb(255,255,0)
+}
+q {
+  text-align: center;
+}
+.nav{
+  border:1px solid #ccc;
+  border-width:1px 0;
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+.nav li{
+  display:inline;
+}
+.nav a{
+  display:inline-block;
+  padding:5px;
+}
